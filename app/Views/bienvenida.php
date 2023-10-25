@@ -23,8 +23,11 @@
     <form class="form m-2 text-center" action="<?php echo base_url("/form") ?>" method="GET" enctype="multipart/form-data">
         <input type="text" name="nombre" placeholder="Nombre">
         <input type="text" name="apellido" placeholder="Apellido">
-        <br>
         <input type="password" name="clave" placeholder="clave">
+        <br>
+        <br>
+        <label for="">Cedula: </label>
+        <input type="text" name="cedula" id="cedula" maxlength="10">
         <br>
         <input class="btn btn-success m-2" type="submit" value="Enviar" name="enviar">
 

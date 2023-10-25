@@ -19,14 +19,15 @@ class Home extends BaseController
         $nombre = $this->request->getGet('nombre');
         $apellido = $this->request->getGet('apellido');
         $clave = $this->request->getGet('clave');
+        $cedula = $this->request->getGet('cedula');
 
-        print_r(saludo());
+        //print_r(saludo());
 
-        $m = ["nombre" => $nombre, "apellido" => $apellido, "clave" => $clave];
+        $c = separar($cedula);
+        $m = ["nombre" => $nombre, "apellido" => $apellido, "clave" => $clave, "cedula" => $cedula, "caracteres" => $c];
 
-      //  print_r($m);
+        //  print_r($m);
 
-        //echo view('form', $m);
+        echo view('form', $m);
     }
-
 }

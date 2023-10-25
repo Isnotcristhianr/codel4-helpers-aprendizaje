@@ -14,11 +14,16 @@
             Datos Prueba
         </h1>
     </center>
-    <?php
-        echo $nombre;
-        echo $apellido;
-        echo $clave;
-    ?>
+    <div>
+        <?php
+        echo "Nombre: " . $nombre . "<br>";
+        echo "Apellido: " . $apellido . "<br>";
+        echo "Clave: " . $clave . "<br>";
+        echo "Cedula: " .  $cedula . "<br>";
+
+        echo "1er Caracter " . $caracteres[0] . "<br>";
+        ?>
+    </div>
 
 </body>
 

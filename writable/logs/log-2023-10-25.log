@@ -20,3 +20,35 @@ in APPPATH\Views\form.php on line 3.
  7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 23:51:29 --> explode(): Argument #1 ($separator) cannot be empty
+in APPPATH\Helpers\calculo_helper.php on line 18.
+ 1 APPPATH\Helpers\calculo_helper.php(18): explode('', '1111111111')
+ 2 APPPATH\Controllers\Home.php(26): separar('1111111111')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->form()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 23:51:30 --> explode(): Argument #1 ($separator) cannot be empty
+in APPPATH\Helpers\calculo_helper.php on line 18.
+ 1 APPPATH\Helpers\calculo_helper.php(18): explode('', '1111111111')
+ 2 APPPATH\Controllers\Home.php(26): separar('1111111111')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->form()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 23:52:04 --> explode(): Argument #1 ($separator) cannot be empty
+in APPPATH\Helpers\calculo_helper.php on line 18.
+ 1 APPPATH\Helpers\calculo_helper.php(18): explode('', '1111111111')
+ 2 APPPATH\Controllers\Home.php(26): separar('1111111111')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->form()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-25 23:56:55 --> explode(): Argument #1 ($separator) cannot be empty
+in APPPATH\Helpers\calculo_helper.php on line 19.
+ 1 APPPATH\Helpers\calculo_helper.php(19): explode('', '1111111111')
+ 2 APPPATH\Controllers\Home.php(26): separar('1111111111')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->form()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
