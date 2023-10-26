@@ -24,7 +24,11 @@ class Home extends BaseController
         //print_r(saludo());
 
         $c = separar($cedula);
-        $m = ["nombre" => $nombre, "apellido" => $apellido, "clave" => $clave, "cedula" => $cedula, "caracteres" => $c];
+        $validador = validadorCedula2($cedula);
+
+        $validador2 = validadorCedula2($cedula);
+
+        $m = ["nombre" => $nombre, "apellido" => $apellido, "clave" => $clave, "cedula" => $cedula, "caracteres" => $c, "Validador: " => $validador, "Validador2: " => $validador2];
 
         //  print_r($m);
 

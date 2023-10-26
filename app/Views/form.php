@@ -14,6 +14,7 @@
             Datos Prueba
         </h1>
     </center>
+
     <div>
         <?php
         echo "Nombre: " . $nombre . "<br>";
@@ -22,6 +23,9 @@
         echo "Cedula: " .  $cedula . "<br>";
 
         echo "Tipo de Cedula: " . $caracteres[0] . "<br>";
+
+        //echo "Validador: " . $validador2 . "<br>";
+
         ?>
     </div>
 
