@@ -21,3 +21,10 @@ function separar($ced)
     $dato[0];
     return $dato; */
 }
+
+function validadorCedula($cedula)
+{
+   // $cedula = str_split($cedula);
+  
+    
+}

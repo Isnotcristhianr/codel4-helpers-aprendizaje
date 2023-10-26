@@ -21,7 +21,7 @@
         echo "Clave: " . $clave . "<br>";
         echo "Cedula: " .  $cedula . "<br>";
 
-        echo "1er Caracter " . $caracteres[0] . "<br>";
+        echo "Tipo de Cedula: " . $caracteres[0] . "<br>";
         ?>
     </div>
 
