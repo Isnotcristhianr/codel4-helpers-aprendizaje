@@ -5,3 +5,15 @@ function validador(e) {
     var prueba = String.fromCharCode(teclado);
     return patron.test(prueba);
 }
+
+function separarJs(){
+    let cedula = document.getElementById("cedula").value;
+    
+    let caracteres = cedula.split("");
+
+    let separar = caracteres.join(".");
+    document.getElementById("cedula").value = separar;
+
+    console.log(caracteres);
+}
+

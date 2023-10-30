@@ -27,11 +27,12 @@
         <br>
         <br>
         <label for="">Cedula: </label>
-        <input type="text" name="cedula" id="cedula" maxlength="10" onkeypress="return validador(event)">
+        <input type="text" name="cedula" id="cedula" maxlength="10" onkeypress="return validador(event)" id="cedula">
         <br>
         <input class="btn btn-success m-2" type="submit" value="Enviar" name="enviar">
 
     </form>
+    <input type="button" value="cedula">
 
     <footer>
         <script src="<?php echo base_url(); ?>../assets/js/funciones.js"></script>

@@ -5,3 +5,19 @@ in APPPATH\Helpers\calculo_helper.php on line 78.
  3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 22:20:40 --> Undefined array key 9
+in APPPATH\Helpers\calculo_helper.php on line 92.
+ 1 APPPATH\Helpers\calculo_helper.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', 'C:\\xampp\\htdocs\\codel4\\app\\Helpers\\calculo_helper.php', 92)
+ 2 APPPATH\Controllers\Home.php(27): validadorCedula2('12121212')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->form()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 22:20:45 --> Undefined array key 9
+in APPPATH\Helpers\calculo_helper.php on line 92.
+ 1 APPPATH\Helpers\calculo_helper.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', 'C:\\xampp\\htdocs\\codel4\\app\\Helpers\\calculo_helper.php', 92)
+ 2 APPPATH\Controllers\Home.php(27): validadorCedula2('12121212')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->form()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
