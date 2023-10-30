@@ -4,35 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenido</title>
-    <!-- bs -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
 </head>
 
 <body>
-
-
-    <!-- msj bienvenida -->
-    <center class="m-1">
-        <h1>Bienvenido a mi sitio web</h1>
-        <p>Esta es la pagina de bienvenida</p>
+    <center>
+        <h1>Bienvenidos</h1>
     </center>
-
-    <!-- Formulario -->
-
-    <form class="form m-2 text-center" action="<?php echo base_url("/form") ?>" method="GET" enctype="multipart/form-data">
-        <input type="text" name="nombre" placeholder="Nombre">
-        <input type="text" name="apellido" placeholder="Apellido">
-        <input type="password" name="clave" placeholder="clave">
-        <br>
-        <br>
-        <label for="">Cedula: </label>
-        <input type="text" name="cedula" id="cedula" maxlength="10" onkeypress="return validador(event)" id="cedula">
-        <br>
-        <input class="btn btn-success m-2" type="submit" value="Enviar" name="enviar">
-
+    <form method="GET" action="<?php echo base_url() . '/index.php/pepito'; ?>">
+        <label>Nombre:</label>
+        <input type="text"  name="nombre" value="" required>
+        <input type="text" maxlength="10" onkeyup="verificar()" onkeypress="return validador(event)" name="cedula" id="cedula" required placeholder="Cédula:">
+        <input id="btnEnviar" type="submit" value="Enviar" style="display: none;">
     </form>
-    <input type="button" value="cedula">
+    <br>
+    <div id="evaCed" style="display: none;">
+        <center><button onclick="separarJS()" >Evaluación inicial</button></center>
+    </div>
+</body>
 
     <footer>
         <script src="<?php echo base_url(); ?>../assets/js/funciones.js"></script>
