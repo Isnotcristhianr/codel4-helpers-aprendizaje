@@ -7,6 +7,10 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
-$routes->get('/1', 'Home::saludo');
+//formulario
+$routes->get('/prueba', 'ControllerPrueba::Bienvenida');
 
-$routes->get('/form', 'Home::form');
+//recibir datos
+$routes->get('/recibirdatos', 'ControllerPrueba::RecibirDatos');
+
+

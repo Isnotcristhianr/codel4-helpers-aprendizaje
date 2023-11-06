@@ -1,0 +1,146 @@
+CRITICAL - 2023-11-06 21:56:05 --> Undefined variable $nombre
+in APPPATH\Views\form.php on line 20.
+ 1 APPPATH\Views\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH\Controllers\ControllerPrueba.php(11): view('form')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->Bienvenida()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 21:56:08 --> Undefined variable $nombre
+in APPPATH\Views\form.php on line 20.
+ 1 APPPATH\Views\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH\Controllers\ControllerPrueba.php(11): view('form')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->Bienvenida()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 21:56:08 --> Undefined variable $nombre
+in APPPATH\Views\form.php on line 20.
+ 1 APPPATH\Views\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH\Controllers\ControllerPrueba.php(11): view('form')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->Bienvenida()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 21:56:24 --> Undefined variable $nombre
+in APPPATH\Views\form.php on line 20.
+ 1 APPPATH\Views\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH\Controllers\ControllerPrueba.php(11): view('form')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->Bienvenida()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 21:56:38 --> Undefined variable $nombre
+in APPPATH\Views\form.php on line 20.
+ 1 APPPATH\Views\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH\Controllers\ControllerPrueba.php(11): view('form')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->Bienvenida()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 21:56:39 --> Undefined variable $nombre
+in APPPATH\Views\form.php on line 20.
+ 1 APPPATH\Views\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH\Controllers\ControllerPrueba.php(11): view('form')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->Bienvenida()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 21:56:39 --> Undefined variable $nombre
+in APPPATH\Views\form.php on line 20.
+ 1 APPPATH\Views\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH\Controllers\ControllerPrueba.php(11): view('form')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->Bienvenida()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 21:56:39 --> Undefined variable $nombre
+in APPPATH\Views\form.php on line 20.
+ 1 APPPATH\Views\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH\Controllers\ControllerPrueba.php(11): view('form')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->Bienvenida()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 21:56:39 --> Undefined variable $nombre
+in APPPATH\Views\form.php on line 20.
+ 1 APPPATH\Views\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH\Controllers\ControllerPrueba.php(11): view('form')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->Bienvenida()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 21:56:39 --> Undefined variable $nombre
+in APPPATH\Views\form.php on line 20.
+ 1 APPPATH\Views\form.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombre', 'C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codel4\\app\\Views\\form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('form', [], true)
+ 5 APPPATH\Controllers\ControllerPrueba.php(11): view('form')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->Bienvenida()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 22:32:08 --> strtotime(): Argument #1 ($datetime) must be of type string, DateTime given
+in APPPATH\Controllers\ControllerPrueba.php on line 23.
+ 1 APPPATH\Controllers\ControllerPrueba.php(23): strtotime(Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->RecibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 22:32:09 --> strtotime(): Argument #1 ($datetime) must be of type string, DateTime given
+in APPPATH\Controllers\ControllerPrueba.php on line 23.
+ 1 APPPATH\Controllers\ControllerPrueba.php(23): strtotime(Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->RecibirDatos()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 22:38:02 --> Undefined variable $name
+in APPPATH\Views\datos.php on line 24.
+ 1 APPPATH\Views\datos.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\codel4\\app\\Views\\datos.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codel4\\app\\Views\\datos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('datos', [], true)
+ 5 APPPATH\Controllers\ControllerPrueba.php(43): view('datos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->RecibirDatos()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 22:38:03 --> Undefined variable $name
+in APPPATH\Views\datos.php on line 24.
+ 1 APPPATH\Views\datos.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\codel4\\app\\Views\\datos.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\codel4\\app\\Views\\datos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('datos', [], true)
+ 5 APPPATH\Controllers\ControllerPrueba.php(43): view('datos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ControllerPrueba->RecibirDatos()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerPrueba))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
